@@ -37,9 +37,9 @@ class RadioTest {
 
     @Test
     void shouldIncreaseVolume() {
-        radio.setValueVolume(8);
+        radio.setValueVolume(5);
         radio.increaseVolume();
-        assertEquals(9, radio.getValueVolume());
+        assertEquals(6, radio.getValueVolume());
     }
 
     @Test
